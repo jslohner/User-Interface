@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 1px solid grey; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* code for the full container */
+
+.container {
+	margin: 0% 5% 10%;
+}
+
+/* code for navigation bar */
+
+nav {
+	padding: 1%;
+	width: 100%;
+}
+
+nav div {
+	width: 10%;
+	padding: 1% 1.5%;
+	display: inline-block;
+}
+
+.links {
+	text-align: center;
+	width: 70%;
+	margin-right: 10%;
+}
+
+.links a {
+	margin-right: 5%;
+}
+
+.logo {
+	text-align: center;
+	margin: 5% 10%;
+	width: 100%;
+}
+
+/* code for header */
+
+header div {
+	display: inline-block;
+}
+
+header .title-container {
+	font-size: 60px;
+	text-align: center;
+	margin: 0% 0% 5% 15%;
+}
+
+header .title-picture {
+	text-align: center;
+	width: 35%;
+	margin: 0% 0% 5% 20%;
+}
+
+/* code for middle section */
+
+.middle-section{
+	margin: 0% auto;
+	width: 80%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+section div {
+	font-size: 150%;
+	padding-right: 8%;
+	margin: 10% 0%;
+	display: inline-block;
+}
+
+/* code for features and about section */
+
+section .features-section {
+	width: 49%;
+}
+
+section .about-section {
+	width: 50%;
+}
+
+/* code for middle image */
+
+section .middle-img {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+/* code for services, product, and vision section */
+
+section .services-section {
+	width: 33%;
+}
+
+section .product-section {
+	width: 33%;
+}
+
+section .vision-section {
+	width: 33%;
+}
