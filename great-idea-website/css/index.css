@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 1px solid grey; */
+	border: 1px solid grey;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 /* code for the full container */
 
 .container {
-	margin: 0% 5% 10%;
+	margin: 0% 0% 10%;
 }
 
 /* code for navigation bar */
@@ -84,38 +84,61 @@ nav div {
 	display: inline-block;
 }
 
-.links {
+nav .links {
 	text-align: center;
 	width: 70%;
-	margin-right: 10%;
+	margin-bottom: 5%;
 }
 
-.links a {
+nav .links a {
+	color: grey;
+	text-decoration: none;
 	margin-right: 5%;
 }
 
-.logo {
-	text-align: center;
-	margin: 5% 10%;
-	width: 100%;
+nav .logo {
+	padding-top: 50%;
+	width: 150%;
 }
 
 /* code for header */
 
+header{
+	width: 80%;
+	margin: 0% auto;
+}
+
 header div {
+	margin: 10% 0%;
 	display: inline-block;
 }
 
 header .title-container {
-	font-size: 60px;
+	font-size: 200%;
 	text-align: center;
-	margin: 0% 0% 5% 15%;
+	width: 50%;
+	margin: 0% auto;
+}
+
+header .title-container .title {
+	font-size: 300%;
+	margin: 0% auto 5%;
+	/* margin-bottom:  */
+}
+
+header .title-container .title-button {
+	color: grey;
+	font-size: 70%;
+	border: 1px solid black;
+	width: 25%;
+	margin: 0% auto 20%;
+	/* margin-bottom: 5%; */
 }
 
 header .title-picture {
+	width: 49%;
 	text-align: center;
-	width: 35%;
-	margin: 0% 0% 5% 20%;
+	margin: 0% auto;
 }
 
 /* code for middle section */
@@ -128,8 +151,8 @@ header .title-picture {
 }
 
 section div {
-	font-size: 150%;
-	padding-right: 8%;
+	font-size: 140%;
+	padding-right: 4%;
 	margin: 10% 0%;
 	display: inline-block;
 }
@@ -164,4 +187,32 @@ section .product-section {
 
 section .vision-section {
 	width: 33%;
+}
+
+/* code for bottom-section */
+
+.bottom-section {
+	margin: 0% auto;
+	width: 80%;
+}
+
+/* code for contact-section */
+
+.contact-section{
+	padding: 0%;
+	margin: 0%;
+}
+
+.contact-section address p{
+	width: 60%;
+	padding: 4% 0%;
+}
+
+/* code for footer */
+
+footer {
+	text-align: center;
+	font-size: 150%;
+	margin: 0% auto;
+	margin-top: 5%;
 }
