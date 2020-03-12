@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,155 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* code for the full container */
+
+.container {
+	margin: 5% 0% 10%;
+}
+
+/* code for navigation bar */
+
+nav {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 8%;
+}
+
+nav div {
+	display: inline-block;
+}
+
+nav .links {
+	text-align: center;
+	width: 70%;
+	vertical-align: middle;
+}
+
+nav .links a {
+	color: grey;
+	font-size: 110%;
+	text-decoration: none;
+	padding-right: 11%;
+}
+
+nav .logo {
+	width: 125%;
+	padding-left: 40%;
+	vertical-align: middle;
+}
+
+/* code for header */
+
+header{
+	width: 80%;
+	margin: 0% auto;
+}
+
+header div {
+	margin: 10% 0%;
+	display: inline-block;
+}
+
+header .title-container {
+	font-size: 200%;
+	text-align: center;
+	width: 50%;
+	margin: 0% auto;
+}
+
+header .title-container .title {
+	font-size: 300%;
+	margin: 0% auto 5%;
+}
+
+header .title-container .title-button {
+	font-size: 70%;
+	border: 1px solid black;
+	width: 25%;
+	vertical-align: middle;
+	padding: 1% 4%;
+	margin: 0% auto 20%;
+}
+
+header .title-picture {
+	width: 49%;
+	text-align: center;
+	margin: 0% auto;
+}
+
+/* code for middle section */
+
+.middle-section{
+	margin: 0% auto;
+	width: 80%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+section div {
+	font-size: 140%;
+	padding-right: 4%;
+	margin: 10% 0%;
+	display: inline-block;
+}
+
+/* code for features and about section */
+
+section .features-section {
+	width: 49%;
+}
+
+section .about-section {
+	width: 50%;
+}
+
+/* code for middle image */
+
+section .middle-img {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+/* code for services, product, and vision section */
+
+section .services-section {
+	width: 33%;
+}
+
+section .product-section {
+	width: 33%;
+}
+
+section .vision-section {
+	width: 33%;
+}
+
+/* code for bottom-section */
+
+.bottom-section {
+	margin: 0% auto;
+	width: 80%;
+}
+
+/* code for contact-section */
+
+.contact-section{
+	padding: 0%;
+	margin: 0%;
+}
+
+.contact-section address p{
+	width: 60%;
+	padding: 4% 0%;
+}
+
+/* code for footer */
+
+footer {
+	text-align: center;
+	font-size: 150%;
+	margin: 0% auto;
+	margin-top: 5%;
+}
