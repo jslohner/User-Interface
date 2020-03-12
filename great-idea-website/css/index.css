@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid grey;
+	/* border: 1px solid grey; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -68,37 +68,38 @@ h1, h2, h3, h4, h5 {
 /* code for the full container */
 
 .container {
-	margin: 0% 0% 10%;
+	margin: 5% 0% 10%;
 }
 
 /* code for navigation bar */
 
 nav {
-	padding: 1%;
-	width: 100%;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 8%;
 }
 
 nav div {
-	width: 10%;
-	padding: 1% 1.5%;
 	display: inline-block;
 }
 
 nav .links {
 	text-align: center;
 	width: 70%;
-	margin-bottom: 5%;
+	vertical-align: middle;
 }
 
 nav .links a {
 	color: grey;
+	font-size: 110%;
 	text-decoration: none;
-	margin-right: 5%;
+	padding-right: 11%;
 }
 
 nav .logo {
-	padding-top: 50%;
-	width: 150%;
+	width: 125%;
+	padding-left: 40%;
+	vertical-align: middle;
 }
 
 /* code for header */
@@ -123,16 +124,15 @@ header .title-container {
 header .title-container .title {
 	font-size: 300%;
 	margin: 0% auto 5%;
-	/* margin-bottom:  */
 }
 
 header .title-container .title-button {
-	color: grey;
 	font-size: 70%;
 	border: 1px solid black;
 	width: 25%;
+	vertical-align: middle;
+	padding: 1% 4%;
 	margin: 0% auto 20%;
-	/* margin-bottom: 5%; */
 }
 
 header .title-picture {
